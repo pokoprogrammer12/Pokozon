@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.logo{
+    padding: 2vw 5vw;
+}
+.logo-img{
+    max-width: 13vw;
+    height: auto;
+}
+
+.form{
+    border-radius: 8px;
+    padding: 80px 60px 80px 60px;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 25%;
+    height: 37vw;
+}
+
+.main-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.text-form{
+    margin-bottom: 30px;
+}
+.text-form input{
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.mail{
+    margin-bottom: 20px;
+}
+
+.sign-button{
+    margin-top: 40px;
+    margin-bottom: 20px;   
+}
+
+.button{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button:hover{
+    transition: 0.2s;
+    background-color: brown;
+}
+.remember-help{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.remember{
+    transition: 0.2s;
+}
+.help{
+    transition: 0.2s;
+}
+.remember:hover,.help:hover{
+    color: red;
+    transition: 0.2s;
+}
+
+.sign-up{
+    margin-bottom: 50px;
+}
+.new-to{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.sign-btn{
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sign-btn:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.learn p{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.leran-more{
+    color: rgb(77, 77, 241);
+    cursor: pointer; 
+    transition: 0.2s;
+}
+.leran-more:hover{
+    color: rgb(19, 19, 153);
+    transition: 0.2s;
+}
